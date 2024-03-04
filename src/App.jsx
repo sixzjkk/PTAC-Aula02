@@ -1,14 +1,17 @@
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 export default function App() {
 
   return(
     <div>
-      <main>
+      <header>
         <Header/>
-        <Header/>
-        <Header/>
-      </main>
+      </header>
+
+      <footer>
+        <Footer/>
+      </footer>
     </div>  
   );
 
