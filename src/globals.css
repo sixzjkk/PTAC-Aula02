@@ -1,0 +1,90 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.header-one {
+    display: flex;
+    justify-content: flex-end;
+    color:#a0e080;
+}
+
+.header-info-one:hover {
+    transition: 0.7s;
+    color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #171615;
+    padding: 20px;
+}
+
+.header-informacoes {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    color: #FFFFFF;
+}
+
+.header-info, .header-info-one {
+    padding: 0 12px;
+    font-family: "Noto Sans";
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.header-info:hover {
+    transition: 0.7s;
+    color:#a0e080;
+}
+
+.logotipo {
+    width: 266.33px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.button {
+    width: 246.63px;
+    height: 50px;
+    padding: 1rem 1.5rem;
+    background-color: #3C8527;
+    color:#FFFFFF;
+    border: none;
+    font-family: "Noto Sans";
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: .03rem;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: coral;
+    background-color: #2e273f;
+    margin-top: 35.7%;
+    padding: 20px;
+}
