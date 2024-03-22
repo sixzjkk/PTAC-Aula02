@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function Main() {
     const [nome, setNome] = useState("");
-    const [telefone, setTel] = useState("");
+    const [telefone, setTel] = useState(0);
 
     return(
         <main>
